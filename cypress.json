@@ -1,5 +1,4 @@
 {
-  "watchForFileChanges": "false",
-  "chromeWebSecurity": "false",
-  
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false
 }
