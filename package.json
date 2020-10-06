@@ -7,6 +7,8 @@
 		"cy:run": "cypress run",
 		"cy:open": "cypress open",
     "cy:update-snapshots": "cypress run --env updateSnapshots=true",
+    "cy:run-dashboard": "cypress run --record --key b5ff915c-775c-4ba1-9303-4d939fac45a5
+"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
