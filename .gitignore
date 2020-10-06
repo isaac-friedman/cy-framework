@@ -105,4 +105,4 @@ dist
 
 # Cypress specific files
 cypress/videos/
-cypress/screenshots
+cypress/screenshots/
