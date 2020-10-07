@@ -3,7 +3,7 @@ export default class topNav {
     cy.get('.brand').click()
   }
 
-  static search() {
-    cy.get('#searchTerm').type("engfeh {enter}")
+  static search(terms) {
+    cy.get('#searchTerm').type(`${terms}{enter}`)
   }
 }
