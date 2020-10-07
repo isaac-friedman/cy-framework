@@ -6,4 +6,8 @@ export default class topNav {
   static search(terms) {
     cy.get('#searchTerm').type(`${terms}{enter}`)
   }
+
+  static clickSignin() {
+    cy.get('#sign_in').click()
+  }
 }
