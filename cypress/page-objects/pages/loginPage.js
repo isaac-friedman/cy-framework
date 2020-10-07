@@ -4,7 +4,7 @@ export default class LoginPage {
   }
 
   static forgotPass() {
-
+    cy.contains('Forgot your password ?').click()
   }
 
   static displayBadPassErr() {
