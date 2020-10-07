@@ -1,4 +1,4 @@
-export default class topNav {
+export default class TopNav {
   static clickLogo() {
     cy.get('.brand').click()
   }
