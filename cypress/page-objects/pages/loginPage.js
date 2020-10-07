@@ -8,6 +8,6 @@ export default class LoginPage {
   }
 
   static displayBadPassErr() {
-    //TODO
+    cy.isVisible('.alert-error')
   }
 }
