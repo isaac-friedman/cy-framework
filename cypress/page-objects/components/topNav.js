@@ -8,6 +8,6 @@ export default class TopNav {
   }
 
   static clickSignin() {
-    cy.get('#sign_in').click()
+    cy.get('#signin_button').click()
   }
 }
