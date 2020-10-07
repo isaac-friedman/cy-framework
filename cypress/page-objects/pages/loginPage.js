@@ -1,10 +1,10 @@
 export default class LoginPage {
   static login(username, password) {
-    //TODO
+    cy.login(username, password)
   }
 
   static forgotPass() {
-    //TODO
+
   }
 
   static displayBadPassErr() {
