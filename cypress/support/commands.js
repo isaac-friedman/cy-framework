@@ -25,4 +25,8 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 import {addMatchImageSnapshotCommand} from 'cypress-image-snapshot/command';
 
-addMatchImageSnapshotCommand(); 
+addMatchImageSnapshotCommand();
+
+Cypress.Commands.add('isVisible', selector => {
+  cy.get(selector).should('be.visible')
+})
