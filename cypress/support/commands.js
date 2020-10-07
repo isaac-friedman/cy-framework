@@ -38,3 +38,11 @@ Cypress.Commands.add('isHidden', selector => {
 Cypress.Commands.add('isGone', selector => {
   cy.get(selector).should('not.exist')
 })
+
+Cypress.Commands.add('setViewport', size => {
+  if(Array.isArray(size)){
+    cy.viewport(size[0], size[1])
+  } else {
+    cy.viewport(size) 
+  }
+})
