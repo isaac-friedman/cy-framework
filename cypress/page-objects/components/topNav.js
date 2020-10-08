@@ -10,4 +10,17 @@ export default class TopNav {
   static clickSignin() {
     cy.get('#signin_button').click()
   }
+
+  static clickSettings() {
+    cy.contains("settings").click()
+  }
+
+  static unMenu(username) {
+    cy.contains(username).click()
+  }
+
+  static logout(username) {
+    cy.contains(username).click()
+    cy.get('#logout_link').click()
+  }
 }
